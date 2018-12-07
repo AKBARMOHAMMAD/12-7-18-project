@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles%}
+    <meta charset="UTF-8">
+    <title>UserBooking</title>
+     <style>
+        body{
+            background-image: url("{% static 'images/Akbar.png' %}");
+        }
+    </style>
+</head>
+<body>
+<h1 align="center">AKBAR'S HOTEL</h1>
+<marquee>
+    <font size="3" face="Algerian">The only purpose of ‘customer service’… is to change feelings.</font>
+</marquee>
+<table align="center" border="2">
+    <tr><th width="120"><a href="//">HOME</a>
+        </th>
+        <th width="120"><a href="">Booking</a> </th>
+         <th width="120">
+            <a href="//">Logout</a>
+        </th>
+
+
+
+    </tr>
+</table>
+<div>
+    <h1 align="center"> Welcome : {{ name.fname }}</h1>
+    <h1 align="center" >welcome to Hotel AKBAR</h1>
+</div>
+<!--<table align="center" bgcolor="white">
+                <tr><td align="center"><h2>Check Here For Rooms<br> Available or Not:</h2></td></tr>
+                <tr><th>Select Rooms:<select><option value="">Select</option> </select>
+                <!--<select>AC</select>
+                <select>NON-AC</select>
+                <select>DELUX</select>
+                <select>Suite</select></th></tr>
+                <tr><th>CHECK-IN:<input id="date" type="date" value="yyyy-mm-dd"></th></tr>
+                <tr><th>CHECK-OUT:<input id="date" type="date" value="yyyy-mm-dd"></th></tr>
+                <tr><th><input type="submit" value="Check"></th></tr>
+            </table>-->
+
+</body>
+</html>
